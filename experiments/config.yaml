@@ -1,4 +1,4 @@
-META_ARC: "HiFT_alexnet"
+META_ARC: "_alexnet"
 
 BACKBONE:
     TYPE: "alexnet"
@@ -8,7 +8,7 @@ BACKBONE:
     LAYERS_LR: 0.1
 
 TRACK:
-    TYPE: 'HiFTtracker'
+    TYPE: 'tracker'
     EXEMPLAR_SIZE: 127
     INSTANCE_SIZE: 287
     CONTEXT_AMOUNT: 0.5 
