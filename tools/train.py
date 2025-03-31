@@ -36,7 +36,7 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 logger = logging.getLogger('global')
-parser = argparse.ArgumentParser(description='HiFT tracking')
+parser = argparse.ArgumentParser(description='tracking')
 parser.add_argument('--cfg', type=str, default='../experiments/config.yaml',
                     help='configuration of tracking')
 parser.add_argument('--seed', type=int, default=123456,
